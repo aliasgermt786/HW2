@@ -1,0 +1,11 @@
+
+{% extends "layout.html"%}
+{% block content %}
+
+<p>Hel, Worl fud!</p>
+ {% for dat in data %}
+     <h1>{{ dat.name }} </h1>
+     <p1>{{ dat.id}} with points {{dat.points}} </p1>
+{% endfor%}
+
+{% endblock content %}
