@@ -30,7 +30,7 @@ data =[
     
 },
 {
-    'name': 'rajat',
+    'name': 'joe',
     'points': '7458',
     'id' : '345',
 }
